@@ -33,4 +33,9 @@ public class MainController {
 		// This returns a JSON or XML with the users
 		return userRepository.findAll();
 	}
+
+	@GetMapping(path="/test")
+	public @ResponseBody String test() {
+		return "This is daizy test!";
+	}
 }
