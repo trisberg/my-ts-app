@@ -36,6 +36,6 @@ public class MainController {
 
 	@GetMapping(path="/test")
 	public @ResponseBody String test() {
-		return "This is daizy test!";
+		return "This is daizy test!!!";
 	}
 }
